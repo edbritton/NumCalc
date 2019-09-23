@@ -15,13 +15,14 @@ The "brief" was:
 The solution was to use *only* the **Numlock** key for all actions. 
 Pressing **Numlock** will:
 
-  If closed:  
-    Open default Calculator and make "always on top"  
-  If open:  
-    If not in focus:  
-      Give focus.  
-    If in focus:  
-      If not in corner of screen:  
-        Move it to the corner of the screen.  
-      If in corner of screen:  
-        Close
+    If closed
+      -> Open default Calculator and make "always on top"
+  
+    If open
+      and not in focus
+        -> Give focus.
+      and in focus
+        and not in corner of screen
+          -> Move it to the corner of the screen.
+        and in corner of screen
+          -> Close
